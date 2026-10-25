@@ -1,0 +1,66 @@
+{
+  "_howto": "徽写写回模板。一章写完后复制到 <作品>/events/events-001.json，只填本章真正发生的变化；没变的字段删掉或留空。跑 writeback.py 后自动增量合并到 state.json 与 bible.json。",
+  "chapter": 1,
+  "summary": "本章摘要 80–150 字，只写发生了什么，不写评价",
+  "timeline": {
+    "now": "第1章末",
+    "time_of_day": "深夜",
+    "weather": "梅雨"
+  },
+  "protagonist": {
+    "condition": "左臂轻伤，行动无碍",
+    "power": "无修为",
+    "location": "丁字巷香烛铺",
+    "known_add": ["电表不走电", "钟声来自铺子地下"]
+  },
+  "characters_new": [
+    {
+      "name": "周砚",
+      "role": "配角",
+      "identity": "香烛铺房东",
+      "personality": "克制，话说一半",
+      "speech_style": "短句，反问多，从不解释",
+      "status": "在场"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "周砚",
+      "relation": "房东",
+      "warmth": "戒备",
+      "last_seen": 1
+    }
+  ],
+  "items": [
+    {
+      "name": "铜钥匙",
+      "delta": 1,
+      "note": "第1章在柜台底下摸到"
+    }
+  ],
+  "threads_new": [
+    {
+      "name": "电表不走电",
+      "due": 21,
+      "note": "电视亮了一整夜，度数还是上月抄的数"
+    }
+  ],
+  "threads_advance": [
+    {
+      "id": 1,
+      "note": "第1章提到钟声，但没说来源"
+    }
+  ],
+  "threads_resolve": [
+    {
+      "id": 3,
+      "evidence": "第1章 铜钥匙开了后门的锁，正面确认是同一把"
+    }
+  ],
+  "threads_abandon": [
+    {
+      "id": 7,
+      "reason": "作者拍板：这条线不写了，只留作背景"
+    }
+  ]
+}

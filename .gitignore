@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.pyc.tmp
+
+tests/_tmp/
+
+徽写作品/
+.DS_Store
+Thumbs.db
+*.log

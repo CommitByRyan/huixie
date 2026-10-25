@@ -1,0 +1,60 @@
+{
+  "_howto": "徽写动态状态模板。由 init 自动生成，日常不手改——每章的变更通过 events/events-NNN.json + writeback.py 增量写入。手改时只改 must_not 与 open_questions 两个由作者拍板的字段。",
+  "schema_version": 1,
+  "chapter": 0,
+  "updated_at": "",
+  "timeline": {
+    "now": "开篇",
+    "time_of_day": "",
+    "weather": ""
+  },
+  "protagonist": {
+    "name": "",
+    "condition": "",
+    "power": "",
+    "location": "",
+    "known": [],
+    "goals": [],
+    "updated": 0
+  },
+  "inventory": [
+    {
+      "name": "示例物品",
+      "qty": 1,
+      "held": true,
+      "note": "第几章得到",
+      "updated": 1
+    }
+  ],
+  "npcs": [
+    {
+      "name": "示例人物",
+      "relation": "关系",
+      "warmth": "态度：戒备 / 亲近 / 利用",
+      "alive": true,
+      "note": "",
+      "last_seen": 1,
+      "updated": 1
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "name": "伏笔短名",
+      "status": "open",
+      "planted": 1,
+      "due": 21,
+      "note": "埋的时候写了什么，读者此刻知道多少",
+      "updated": 1,
+      "resolved_at": null,
+      "abandoned_at": null
+    }
+  ],
+  "must_not": [
+    "作者拍板：本卷不许透露主角父亲的真实身份"
+  ],
+  "open_questions": [
+    "还没想好怎么收的线，先挂在这里"
+  ],
+  "_applied": []
+}
